@@ -21,7 +21,8 @@ end
 def adding
 shipping_manifest << {
   "muskets" => 2,
-"gun powder" => 4
+  "gun powder" => 4
+}
 
 
 # add 2 muskets to the shipping_manifest hash below
@@ -29,4 +30,4 @@ shipping_manifest << {
 # return the shipping_manifest hash below
 end
 
-shipping_manifest
+
