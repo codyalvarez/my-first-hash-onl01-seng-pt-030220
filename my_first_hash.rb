@@ -19,10 +19,8 @@ def retrieval
 end
 
 def adding
-  shipping_manifest << {
-    "muskets" => 2,
-    "gun powder" => 4
-}
+h2 = {"muskets" => 2, "gun powder" => 4}
+shipping_manifest.merg(h2)
 # add 2 muskets to the shipping_manifest hash below
 # add 4 gun powder to the shipping_manifest hash below
 # return the shipping_manifest hash below
